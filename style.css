@@ -5,12 +5,24 @@
     border-top-right-radius: 2vh;
     border-bottom-left-radius: 2vh;
     border-bottom-right-radius: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
   
    
 }
 
-.HeaderContainer h1, h2{
-    color:aliceblue;
+.HeaderContainer h1{
+    color: violet;
+    font-family: 'Montserrat', sans-serif;
+   
+   
+}
+.HeaderContainer h2{
+    color: deepskyblue;
+    font-family: 'Montserrat', sans-serif;
+   
    
 }
 
@@ -20,6 +32,10 @@
     border-top-right-radius: 2vh;
     border-bottom-left-radius: 2vh;
     border-bottom-right-radius: 2vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15vh;
   
 }
 
@@ -30,6 +46,7 @@
     font-size: large;
     font-weight: bold;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .MenuButton:hover{
@@ -43,16 +60,28 @@
     border-top-right-radius: 5vh;
     border-bottom-left-radius: 5vh;
     border-bottom-right-radius: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+   
 
+}
+
+.PostDiv{
+    width: 80%;
 }
 
 .TextListContainer{
     background-color: rgba(255, 228, 196, 0.85);
-    width: 40%;
     border-top-left-radius: 5vh;
     border-top-right-radius: 5vh;
     border-bottom-left-radius: 5vh;
     border-bottom-right-radius: 5vh;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 body{
@@ -62,5 +91,103 @@ body{
 .PostTitle {
     color: darkslateblue;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
    
 }
+
+p, li, label, input {
+    text-align: justify;
+    font-size: larger;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.PageContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    animation: fadeInAnimation ease 0.4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+.ListContainer{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.PostImage{
+    height: 50vh;
+    margin-bottom: 2vh;
+    
+}
+
+.ImageContainer{
+ display: flex;
+ justify-content: center;
+ cursor:pointer;
+ filter: grayscale(100%);
+ transform: translateZ(0) scale(1);
+ transition: filter 0.3s ease, transform .2s;
+   
+  
+}
+
+.ImageContainer:hover{
+    filter: grayscale(0%);
+    transform: scale(1.03);
+}
+
+.FormRow{
+    margin-bottom: 2vh;
+}
+
+#JoinForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SubmitButton{
+    cursor: pointer;
+    background-color: darkslateblue;
+    color:aliceblue;
+    transform: translateZ(0) scale(1);
+    transition: transform .2s;
+}
+
+.SubmitButton:hover{
+    background-color: black;
+    color:deepskyblue;
+    transform: scale(1.05);
+
+}
+
+.SaturnLogo{
+    height: 30vh;
+}
+
+.SiteTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SiteTitleSubDiv{
+    display: flex;
+    flex-direction: column;
+    
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
