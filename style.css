@@ -1,0 +1,66 @@
+.HeaderContainer{
+    background-color: black;
+    width: 100%;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    border-bottom-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+  
+   
+}
+
+.HeaderContainer h1, h2{
+    color:aliceblue;
+   
+}
+
+.MenuContainer{
+    background-color: darkslateblue;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    border-bottom-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+  
+}
+
+.MenuButton{
+    background-color: darkslateblue;
+    color:aliceblue;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.MenuButton:hover{
+    color: deepskyblue;
+}
+
+.TextContainer{
+    background-color: rgba(255, 228, 196, 0.85);
+    width: 80%;
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+    border-bottom-left-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+
+}
+
+.TextListContainer{
+    background-color: rgba(255, 228, 196, 0.85);
+    width: 40%;
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+    border-bottom-left-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+}
+
+body{
+    background-image: url('background.jpg');
+}
+
+.PostTitle {
+    color: darkslateblue;
+    text-align: center;
+   
+}
